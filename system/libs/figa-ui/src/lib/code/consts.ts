@@ -1,0 +1,3 @@
+const CODE_LINE_HEIGHT = 22;
+
+export { CODE_LINE_HEIGHT };
