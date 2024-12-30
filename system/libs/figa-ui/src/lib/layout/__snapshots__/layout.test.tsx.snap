@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User is able to use layout when [FRAGILE] allows to disable content padding 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bcXHqe MLbvX layout off-padding"
+  >
+    <header
+      class="layout-top-nav"
+    >
+      <div>
+        Header
+      </div>
+    </header>
+    <main
+      class="layout-content"
+    >
+      <div>
+        Content
+      </div>
+    </main>
+    <footer
+      class="layout-footer"
+    />
+    <nav
+      class="layout-bottom-nav"
+    >
+      <div />
+    </nav>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`User is able to use layout when [FRAGILE] allows to pass sidebar and gives option to maintain it 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bcXHqe MLbvX layout asided"
+  >
+    <header
+      class="layout-top-nav"
+    >
+      <div>
+        Header
+      </div>
+    </header>
+    <main
+      class="layout-content"
+    >
+      <aside
+        class="layout-content-sidebar"
+      >
+        <div>
+          Sidebar: closed
+        </div>
+      </aside>
+      <div>
+        Content
+      </div>
+    </main>
+    <footer
+      class="layout-footer"
+    />
+    <nav
+      class="layout-bottom-nav"
+    >
+      <div />
+    </nav>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`User is able to use layout when [FRAGILE] allows to pass sidebar and gives option to maintain it 2`] = `
+<DocumentFragment>
+  <div
+    class="sc-bcXHqe MLbvX layout asided opened"
+  >
+    <header
+      class="layout-top-nav"
+    >
+      <div>
+        Header
+      </div>
+    </header>
+    <main
+      class="layout-content"
+    >
+      <aside
+        class="layout-content-sidebar"
+      >
+        <div>
+          Sidebar: opened
+        </div>
+      </aside>
+      <div>
+        Content
+      </div>
+    </main>
+    <footer
+      class="layout-footer"
+    />
+    <nav
+      class="layout-bottom-nav"
+    >
+      <div />
+    </nav>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`User is able to use layout when [FRAGILE] allows to skip footer 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bcXHqe MLbvX layout"
+  >
+    <header
+      class="layout-top-nav"
+    >
+      <div>
+        Header
+      </div>
+    </header>
+    <main
+      class="layout-content"
+    >
+      <div>
+        Content
+      </div>
+    </main>
+    <footer
+      class="layout-footer"
+    />
+    <nav
+      class="layout-bottom-nav"
+    >
+      <div />
+    </nav>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`User is able to use layout when [FRAGILE] renders big contents 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bcXHqe MLbvX layout"
+  >
+    <header
+      class="layout-top-nav"
+    >
+      <div>
+        Header
+      </div>
+    </header>
+    <main
+      class="layout-content"
+    >
+      <div
+        style="height: 110vh;"
+      >
+        Content
+      </div>
+    </main>
+    <footer
+      class="layout-footer"
+    >
+      <div>
+        Footer
+      </div>
+    </footer>
+    <nav
+      class="layout-bottom-nav"
+    >
+      <div />
+    </nav>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`User is able to use layout when [FRAGILE] renders with default setup 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bcXHqe MLbvX layout"
+  >
+    <header
+      class="layout-top-nav"
+    >
+      <div>
+        Header
+      </div>
+    </header>
+    <main
+      class="layout-content"
+    >
+      <div>
+        Content
+      </div>
+    </main>
+    <footer
+      class="layout-footer"
+    >
+      <div>
+        Footer
+      </div>
+    </footer>
+    <nav
+      class="layout-bottom-nav"
+    >
+      <div>
+        <div>
+          Bottom nav item
+        </div>
+      </div>
+    </nav>
+  </div>
+</DocumentFragment>
+`;
