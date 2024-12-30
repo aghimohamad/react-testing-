@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav can be used when:  [FRAGILE] assigns classes 1`] = `
+<DocumentFragment>
+  <nav
+    class="sc-bcXHqe emFitS nav my-nav"
+  >
+    <div
+      class="nav-logo"
+    >
+      <span>
+        Logo
+      </span>
+    </div>
+    <div
+      class="nav-links-wrapper"
+    >
+      <div
+        class="nav-links"
+      >
+        <a
+          href="/test"
+        >
+          Articles
+        </a>
+        <a
+          href="/"
+        >
+          Authors
+        </a>
+        <a
+          href="/"
+        >
+          Admin
+        </a>
+      </div>
+    </div>
+    <div
+      class="nav-actions"
+    >
+      <button>
+        Register
+      </button>
+      <button>
+        Sign In
+      </button>
+    </div>
+  </nav>
+</DocumentFragment>
+`;
