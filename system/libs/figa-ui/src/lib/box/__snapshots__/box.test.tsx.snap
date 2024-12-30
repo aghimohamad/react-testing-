@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User is able to use box when [FRAGILE] allows to set minimum/maximum width and styles 1`] = `
+<DocumentFragment>
+  <div
+    class="box column empty"
+    style="background: red; max-width: 350px; min-width: 200px; margin: auto;"
+  >
+    <div>
+      1
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`User is able to use box when [FRAGILE] allows to use padding and assigns custom classes 1`] = `
+<DocumentFragment>
+  <div
+    class="box my-class column empty"
+    style="padding: 8px 12px 16px 20px;"
+  >
+    <div>
+      1
+    </div>
+    <div>
+      2
+    </div>
+    <div>
+      3
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`User is able to use box when [FRAGILE] assigns orientation classes 1`] = `
+<DocumentFragment>
+  <div
+    class="box row empty"
+  >
+    <div>
+      1
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`User is able to use box when [FRAGILE] assigns positioning classes 1`] = `
+<DocumentFragment>
+  <div
+    class="box column empty right center between"
+  >
+    <div>
+      1
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`User is able to use box when [FRAGILE] creates space for columns 1`] = `
+<DocumentFragment>
+  <div
+    class="box column empty"
+  >
+    <div
+      class="box-item-wrapper"
+      style="margin-bottom: 8px;"
+    >
+      <div>
+        1
+      </div>
+    </div>
+    <div
+      class="box-item-wrapper"
+      style="margin-bottom: 12px;"
+    >
+      <div>
+        2
+      </div>
+    </div>
+    <div
+      class="box-item-wrapper"
+      style="margin-bottom: 16px;"
+    >
+      <div>
+        3
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`User is able to use box when [FRAGILE] renders with default setup 1`] = `
+<DocumentFragment>
+  <div
+    class="box column empty"
+  >
+    <div>
+      1
+    </div>
+    <div>
+      2
+    </div>
+    <div>
+      3
+    </div>
+  </div>
+</DocumentFragment>
+`;
