@@ -1,0 +1,26 @@
+name: Chromatic
+
+on:
+  pull_request:
+    branches: ["develop", "main"]
+
+jobs:
+  chromatic-deployment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Install dependencies
+        run: |
+          cd system
+          npm install --legacy-peer-deps
+      - name: Build storybook
+          run: |
+            cd system
+            npm run build-storybook
+      - name: Build storybook
+          run: |
+            cd system/dist/storybook/figa-ui
+            npm run chromatic --project-token=${{ secrets.FIGA_UI_CHROMATIC_TOKEN }}
