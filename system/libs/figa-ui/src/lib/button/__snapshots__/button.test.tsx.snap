@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button can be used when [FRAGILE] renders with default props 1`] = `
+<DocumentFragment>
+  <button
+    class="button button-size-3 button-rectangle button-filled button-primary"
+  />
+</DocumentFragment>
+`;
