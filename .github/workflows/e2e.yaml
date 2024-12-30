@@ -1,0 +1,26 @@
+name: Tests e2e
+
+on:
+  pull_request:
+    branches: ["develop"]
+
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Install dependencies
+        run: |
+          cd system
+          npm install --legacy-peer-deps
+      - name: Cypress e2e tests
+        env: 
+          NEXT_PUBLIC_API_URL: ${{ secrets.NEXT_PUBLIC_API_URL }}
+          ADMIN_LOGIN: ${{ secrets.ADMIN_LOGIN }}
+          ADMIN_PASSWORD: ${{ secrets.ADMIN_PASSWORD }}
+        run: |
+          cd system
+          npm run e2e:checkAll
